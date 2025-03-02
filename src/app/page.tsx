@@ -100,11 +100,17 @@ export default function Home() {
       <RevealFx translateY="16" delay={0.6}>
         <Projects range={[1, 1]} />
       </RevealFx>
+      <iframe
+        src="https://www.spatial.io/embed/BPC-France-Services-de-VTC-et-conciergerie-67b7350112b66a44c9a35cb5"
+        width="1280px"
+        height="720px"
+        allow="camera; fullscreen; autoplay; display-capture; microphone; clipboard-write"
+      ></iframe>
       {routes["/blog"] && (
         <Flex fillWidth gap="24" mobileDirection="column">
           <Flex flex={1} paddingLeft="l">
             <Heading as="h2" variant="display-strong-xs" wrap="balance">
-              Latest from the blog
+             Les dernières News en direct du Metavers
             </Heading>
           </Flex>
           <Flex flex={3} paddingX="20">
