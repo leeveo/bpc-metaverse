@@ -1,33 +1,26 @@
-import { NextApiRequest, NextApiResponse } from "next";
-import * as cookie from "cookie";
+import { NextApiRequest, NextApiResponse } from 'next';
+import bcrypt from 'bcryptjs';
 
-export default function handler(req: NextApiRequest, res: NextApiResponse) {
-  if (req.method === "POST") {
-    const { password } = req.body;
-    const correctPassword = process.env.PAGE_ACCESS_PASSWORD;
+// Hash the password 'test' using bcrypt
+const hashedPassword = bcrypt.hashSync('test', 10);
 
-    if (!correctPassword) {
-      console.error('PAGE_ACCESS_PASSWORD environment variable is not set');
-      return res.status(500).json({ message: "Internal server error" });
-    }
+const users = [
+  { email: 'marcmenu707@gmail.com', password: hashedPassword },
+  // Add more users as needed
+];
 
-    if (password === correctPassword) {
-      res.setHeader(
-        "Set-Cookie",
-        cookie.serialize("authToken", "authenticated", {
-          httpOnly: true,
-          secure: process.env.NODE_ENV === "production",
-          maxAge: 60 * 60,
-          sameSite: "strict",
-          path: "/",
-        }),
-      );
+export default async function handler(req: NextApiRequest, res: NextApiResponse) {
+  const { email, password } = req.body;
 
-      return res.status(200).json({ success: true });
-    } else {
-      return res.status(401).json({ message: "Incorrect password" });
-    }
+  const user = users.find(user => user.email === email);
+  if (!user) {
+    return res.status(401).json({ message: 'Invalid email or password' });
   }
 
-  return res.status(405).json({ message: "Method Not Allowed" });
+  const isPasswordValid = await bcrypt.compare(password, user.password);
+  if (!isPasswordValid) {
+    return res.status(401).json({ message: 'Invalid email or password' });
+  }
+
+  res.status(200).json({ message: 'Authenticated' });
 }

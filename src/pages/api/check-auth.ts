@@ -1,12 +1,10 @@
-import { NextApiRequest, NextApiResponse } from "next";
-import * as cookie from "cookie";
+import { NextApiRequest, NextApiResponse } from 'next';
 
 export default function handler(req: NextApiRequest, res: NextApiResponse) {
-  const cookies = cookie.parse(req.headers.cookie || "");
-
-  if (cookies.authToken === "authenticated") {
-    return res.status(200).json({ authenticated: true });
+  const isAuthenticated = req.cookies.isAuthenticated === 'true';
+  if (isAuthenticated) {
+    res.status(200).json({ message: 'Authenticated' });
   } else {
-    return res.status(401).json({ authenticated: false });
+    res.status(401).json({ message: 'Not authenticated' });
   }
 }

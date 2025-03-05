@@ -7,7 +7,7 @@ import { Fade, Flex, Line, ToggleButton } from "@/once-ui/components";
 import styles from "@/components/Header.module.scss";
 
 import { routes, display } from "@/app/resources";
-import { person, home, about, blog, work, gallery } from "@/app/resources/content";
+import { person, home, about, blog, work, gallery, lazare, hotels, dynabuy,vtc, cinema,formation,digitale,signup, bureautique,conseils,bancaire,karate,arbela,formation2} from "@/app/resources/content";
 
 type TimeDisplayProps = {
   timeZone: string;
@@ -75,23 +75,7 @@ export const Header = () => {
                 <ToggleButton prefixIcon="home" href="/" selected={pathname === "/"} />
               )}
               <Line vert maxHeight="24" />
-              {routes["/about"] && (
-                <>
-                  <ToggleButton
-                    className="s-flex-hide"
-                    prefixIcon="person"
-                    href="/about"
-                    label={about.label}
-                    selected={pathname === "/about"}
-                  />
-                  <ToggleButton
-                    className="s-flex-show"
-                    prefixIcon="person"
-                    href="/about"
-                    selected={pathname === "/about"}
-                  />
-                </>
-              )}
+         
               {routes["/work"] && (
                 <>
                   <ToggleButton
@@ -109,23 +93,7 @@ export const Header = () => {
                   />
                 </>
               )}
-              {routes["/blog"] && (
-                <>
-                  <ToggleButton
-                    className="s-flex-hide"
-                    prefixIcon="book"
-                    href="/blog"
-                    label={blog.label}
-                    selected={pathname.startsWith("/blog")}
-                  />
-                  <ToggleButton
-                    className="s-flex-show"
-                    prefixIcon="book"
-                    href="/blog"
-                    selected={pathname.startsWith("/blog")}
-                  />
-                </>
-              )}
+      
               {routes["/gallery"] && (
                 <>
                   <ToggleButton
@@ -140,6 +108,40 @@ export const Header = () => {
                     prefixIcon="gallery"
                     href="/gallery"
                     selected={pathname.startsWith("/gallery")}
+                  />
+                </>
+              )}
+              {routes["/signup"] && (
+                <>
+                  <ToggleButton
+                    className="s-flex-hide"
+                    prefixIcon="gallery"
+                    href="/signup"
+                    label=" Inscrivez-vous"
+                    selected={pathname.startsWith("/signup")}
+                  />
+                  <ToggleButton
+                    className="s-flex-show"
+                    prefixIcon="gallery"
+                    href="/signup"
+                    selected={pathname.startsWith("/signup")}
+                  />
+                </>
+              )}
+               {routes["/cgv"] && (
+                <>
+                  <ToggleButton
+                    className="s-flex-hide"
+                    prefixIcon="gallery"
+                    href="/cgv"
+                    label="Condigions Générales"
+                    selected={pathname.startsWith("/cgv")}
+                  />
+                  <ToggleButton
+                    className="s-flex-show"
+                    prefixIcon="gallery"
+                    href="/cgv"
+                    selected={pathname.startsWith("/cgv")}
                   />
                 </>
               )}

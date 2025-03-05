@@ -1,0 +1,101 @@
+[
+  {
+    "src": "/images/metavers/cover-01.png",
+    "title": "Salle Lazare",
+    "description": "Découvrez notre salle Métavers LAZARE, un espace exclusif réservé à nos clients adhérents éligibles et certains partenaires. Grâce à cette offre innovante, bénéficiez d’un accès Métavers dédié pour optimiser votre communication digitale sur les réseaux sociaux ou par mail. Un casque Oculus basique est offert, avec un accès disponible également sur PC.",
+    "link": "/lazare",
+    "iframeSrc": "https://www.spatial.io/embed/BPC-France-Salle-LAZARE-67a32f46d9248a7ed15ddc92"
+  },
+  {
+    "src": "/images/metavers/cover-02.png",
+    "title": "Hotels, Loisirs et Services",
+    "description": "Découvrez notre salle Métavers dédiée aux services hôteliers, loisirs et voyages, un espace immersif où notre centrale d’achat facilite les partenariats, optimise les offres et propose des solutions exclusives pour une expérience client enrichie et un développement stratégique.",
+    "link": "/hotels",
+    "iframeSrc": "https://www.spatial.io/embed/BPC-France-Hotels-voyages-et-loisirs-67a1d221d9248a7ed15ddc7e"
+  },
+  {
+    "src": "/images/metavers/cover-03.png",
+    "title": "VTC et conciergerie",
+    "description": "Découvrez notre salle Métavers dédiée aux VTC et à la conciergerie, un espace immersif où notre centrale d’achat optimise les services, facilite les mises en relation et propose des solutions exclusives pour une gestion plus efficace et rentable.",
+    "link": "/vtc",
+    "iframeSrc": "https://www.spatial.io/embed/BPC-France-Services-de-VTC-et-conciergerie-67b7350112b66a44c9a35cb5"
+  },
+  {
+    "src": "/images/metavers/cover-04.png",
+    "title": "Oga Dynabuy",
+    "description": "Dynabuy est un réseau professionnel qui aide les entreprises à développer leur activité via une centrale d’achats, un CSE externalisé et des clubs d’affaires. Il facilite les rencontres entre dirigeants et permet des économies grâce à des négociations collectives.",
+    "link": "/dynabuy",
+    "iframeSrc": "https://www.spatial.io/embed/BPC-France-OGA-DYNABUY-67a32473d9248a7ed15ddc90"
+  },
+  {
+    "src": "/images/metavers/cover-05.png",
+    "title": "Salle Cinéma",
+    "description": "Entrez dans un espace immersif et captivant, où le savoir prend vie à travers le grand écran ! Notre salle Métavers Cinéma vous offre une expérience unique, combinant formations vidéo, documentaires inspirants et masterclasses dédiés au business, au Métavers et au marketing.",
+    "link": "/cinema",
+    "iframeSrc": "https://www.spatial.io/cinema/BPC-France-Cinema-6790b3059deff43db221efed"
+  },
+  {
+    "src": "/images/metavers/cover-06.png",
+    "title": "Salle Formations et Ebooks",
+    "description": "Plongez dans notre salle Métavers dédiée aux e-books et formations, un espace interactif où notre centrale d’achat vous offre un accès privilégié à des ressources pédagogiques de qualité, optimisant l’apprentissage et le développement professionnel.",
+    "link": "/formation",
+    "iframeSrc": "https://www.spatial.io/embed/BPC-France-Formations-et-Ebooks-67a35b7dd280d8a251d0392b"
+  },
+  {
+    "src": "/images/metavers/cover-07.png",
+    "title": "Salle Digitale et IA",
+    "description": "Explorez notre salle Métavers dédiée aux services marketing et digitaux, un espace interactif où notre centrale d’achat connecte les experts, optimise les stratégies et propose des solutions innovantes pour booster la visibilité et la performance des entreprises.",
+    "link": "/digitale",
+    "iframeSrc": "https://www.spatial.io/embed/BPC-France-Marketing-et-digitale-67a3304430e624515a0f3a16"
+  },
+  {
+    "src": "/images/metavers/cover-08.png",
+    "title": "Salle Bureautique",
+    "description": "Découvrez notre salle Métavers dédiée aux fournisseurs en bureautique, un espace immersif où notre centrale d’achat facilite les rencontres, optimise les négociations et dynamise les opportunités commerciales pour un approvisionnement plus efficace et innovant.",
+    "link": "/bureautique",
+    "iframeSrc": "https://www.spatial.io/embed/BPC-France-Bureautique-679cff26124cd59b9ca0b1a2"
+  },
+  {
+    "src": "/images/metavers/cover-09.png",
+    "title": "Salle Conseils Pros",
+    "description": "Explorez notre salle Métavers dédiée au conseil pro et au management, un espace immersif où notre centrale d’achat facilite l’accès à des experts, des stratégies innovantes et des solutions optimisées pour booster la performance et la croissance des entreprises.",
+    "link": "/conseils",
+    "iframeSrc": "https://www.spatial.io/embed/BPC-France-Conseil-Pro-679b97341f942e7ff2fd18b8"
+  },
+  {
+    "src": "/images/metavers/cover-10.png",
+    "title": "Salle Services Bancaires",
+    "description": "Explorez notre salle Métavers dédiée aux services bancaires, un espace innovant où notre centrale d’achat facilite l’accès à des offres exclusives, optimise les solutions financières et connecte professionnels et experts pour une gestion plus performante.",
+    "link": "/bancaire",
+    "iframeSrc": "https://www.spatial.io/embed/BPC-France-Services-Bancaires-67979fb81bd37d47a6ca8aa0"
+  },
+  {
+    "src": "/images/metavers/cover-11.png",
+    "title": "Salle Karaté et coaching sportif",
+    "description": "Découvrez notre salle Métavers dédiée au karaté et au coaching sportif, un espace immersif où notre centrale d’achat facilite l’accès à des formations, optimise les services et connecte les experts pour une performance et un accompagnement de haut niveau.",
+    "link": "/karate",
+    "iframeSrc": "https://www.spatial.io/embed/BPC-France-Karate-et-coaching-sportif-6792968bbbd33c324295c871"
+  },
+  {
+    "src": "/images/metavers/cover-12.png",
+    "title": "Galerie D'art Huguette Arbela",
+    "description": "Explorez notre salle Métavers dédiée à la galerie d'art de Huguette Arbela, un espace immersif où notre centrale d’achat met en avant des œuvres uniques, facilite les rencontres avec les amateurs d'art et optimise les opportunités pour collectionneurs et passionnés.",
+    "link": "/arbela",
+    "iframeSrc": "https://www.spatial.io/embed/Huguette-ARBELA-Galerie-Tableaux-678e5e94644acf1b061f90f7"
+  },
+  {
+    "src": "/images/metavers/cover-06.png",
+    "title": "Salle Formations et Ebooks 2",
+    "description": "Plongez dans notre salle Métavers dédiée aux e-books et formations, un espace interactif où notre centrale d’achat vous offre un accès privilégié à des ressources pédagogiques de qualité, optimisant l’apprentissage et le développement professionnel.",
+    "link": "/formation2",
+    "iframeSrc": "https://www.spatial.io/embed/BPC-France-Formations-et-ebooks-2-67c45e991276888990df8494"
+  },
+ {
+    "src": "/images/metavers/cover-13.png",
+    "title": "Metagold Gold Nature",
+    "description": "Nous vous accompagnons à chaque étape de votre parcours professionnel en vous proposant des services sur mesure. Profitez d’un coaching personnalisé, d’un accès à des solutions bureautiques à prix coûtant, de remises exclusives sur les services VTC, et d’un accompagnement individualisé tout au long de notre collaboration.",
+    "link": "/metagold",
+    "iframeSrc": "https://www.spatial.io/embed/Metagold-Gold-Nature-67c754461276888990df84d6"
+  }
+  
+]
