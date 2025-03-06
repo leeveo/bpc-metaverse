@@ -9,6 +9,12 @@ export const about = {
   // ...define other properties...
 };
 
+export const social = {
+  twitter: "https://twitter.com/yourprofile",
+  facebook: "https://facebook.com/yourprofile",
+  // ...add other social links...
+};
+
 export const metaverseGallery = {
   images: [
     { src: '/images/metavers/image1.jpg', alt: 'Image 1' },
