@@ -171,7 +171,7 @@ const about = {
 const work = {
   label: "Toutes les salles",
   title: "Toutes les salles du Metaverse",
-  description: `Découvrez l"ensemnble des salles du Metaverse de BPC France`,
+  description: `Découvrez l'ensemble des salles du Metaverse de BPC France`,
   // Create new project pages by adding a new .mdx file to app/blog/posts
   // All projects will be listed on the /home and /work routes
 };
