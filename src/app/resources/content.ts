@@ -12,6 +12,19 @@ const person = {
   languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
 };
 
+// Ensure person.name is correctly defined and accessible
+const home = {
+  label: "Home",
+  title: `${person.name}'s Portfolio`,
+  description: `Portfolio website showcasing my work as a ${person.role}`,
+  headline: <>Le Metagold Métaverse</>,
+  subline: (
+    <>
+      Plongez dans l’univers du Métavers <br /> et explorez nos espaces immersifs dédiés à votre activité.
+    </>
+  ),
+};
+
 const newsletter = {
   display: true,
   title: "Newsletter Title",
@@ -28,18 +41,6 @@ const social = [
     link: "mailto:example@gmail.com",
   },
 ];
-
-const home = {
-  label: "Home",
-  title: `${person.name}'s Portfolio`,
-  description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Le Metagold Métaverse</>,
-  subline: (
-    <>
-      Plongez dans l’univers du Métavers <br /> et explorez nos espaces immersifs dédiés à votre activité.
-    </>
-  ),
-};
 
 const about = {
   label: "Metaverse",
