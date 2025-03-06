@@ -5,7 +5,7 @@ import { metaverseGallery } from '@/app/resources/content';
 
 const MetaversPage = () => {
   return (
-    <Flex direction="column" alignItems="center">
+    <Flex direction="column" align="center">
       <h1>Metavers Gallery</h1>
       <MasonryGrid images={metaverseGallery.images} columns={3} />
     </Flex>
