@@ -36,6 +36,20 @@ export const about = {
       },
     ],
   },
+  studies: {
+    title: "Studies",
+    display: true,
+    institutions: [
+      {
+        name: "University of Jakarta",
+        description: "Studied software engineering.",
+      },
+      {
+        name: "Build the Future",
+        description: "Studied online marketing and personal branding.",
+      },
+    ],
+  },
   // ...define other properties...
 };
 
