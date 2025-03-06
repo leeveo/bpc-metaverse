@@ -1,8 +1,9 @@
 import { InlineCode } from "@/once-ui/components";
 
+// Define the person object
 const person = {
-  firstName: "MetaGold", 
-  lastName: "Gold Nature ",
+  firstName: "MetaGold",
+  lastName: "Gold Nature",
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
@@ -12,14 +13,23 @@ const person = {
   languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
 };
 
-const newsletter = {
-  display: true,
-  title: <>Souscrire à la Newsletter du {person.firstName}</>,
-  description: (
+// Ensure person.name is correctly defined and accessible
+const home = {
+  label: "Home",
+  title: `${person.name}'s Portfolio`,
+  description: `Portfolio website showcasing my work as a ${person.role}`,
+  headline: <>Le Metagold Métaverse</>,
+  subline: (
     <>
-      Abonnez-vous et profitez d’un accès exclusif à nos offres VIP et promotions Métavers !
+      Plongez dans l’univers du Métavers <br /> et explorez nos espaces immersifs dédiés à votre activité.
     </>
   ),
+};
+
+const newsletter = {
+  display: true,
+  title: "Newsletter Title",
+  description: "Subscribe to our newsletter to stay updated.",
 };
 
 const social = [
@@ -32,18 +42,6 @@ const social = [
     link: "mailto:example@gmail.com",
   },
 ];
-
-const home = {
-  label: "Home",
-  title: `${person.name}'s Portfolio`,
-  description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Le Metagold Métaverse</>,
-  subline: (
-    <>
-      Plongez dans l’univers du Métavers <br /> et explorez nos espaces immersifs dédiés à votre activité.
-    </>
-  ),
-};
 
 const about = {
   label: "Metaverse",
@@ -171,18 +169,10 @@ const about = {
   },
 };
 
-const blog = {
-  label: "Blog",
-  title: "Writing about design and tech...",
-  description: `Read what ${person.name} has been up to recently`,
-  // Create new blog posts by adding a new .mdx file to app/blog/posts
-  // All posts will be listed on the /blog route
-};
-
 const work = {
   label: "Toutes les salles",
   title: "Toutes les salles du Metaverse",
-  description: `Découvrez l"ensemnble des salles du Metaverse de BPC France`,
+  description: `Découvrez l'ensemble des salles du Metaverse de BPC France`,
   // Create new project pages by adding a new .mdx file to app/blog/posts
   // All projects will be listed on the /home and /work routes
 };
@@ -275,4 +265,4 @@ const metaverseGallery = {
   ],
 };
 
-export { person, social, newsletter, home, about, blog, work, gallery, metaverseGallery };
+export { person, social, newsletter, home, about, work, gallery, metaverseGallery };
