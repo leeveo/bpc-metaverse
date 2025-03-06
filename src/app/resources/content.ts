@@ -14,12 +14,8 @@ const person = {
 
 const newsletter = {
   display: true,
-  title: <>Souscrire à la Newsletter du {person.firstName}</>,
-  description: (
-    <>
-      Abonnez-vous et profitez d’un accès exclusif à nos offres VIP et promotions Métavers !
-    </>
-  ),
+  title: "Newsletter Title",
+  description: "Subscribe to our newsletter to stay updated.",
 };
 
 const social = [
