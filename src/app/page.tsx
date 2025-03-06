@@ -195,7 +195,7 @@ export default function Home() {
         
       </div>
       <Column fillWidth paddingY="l" gap="m">
-        <Flex gap="m" alignItems="center">
+        <Flex gap="m">
      
           <div style={{ flex: 1 }}>
             <Heading variant="heading-default-xl" style={{ color: "#7febba", fontWeight: "bold" }}>Pourquoi choisir nos salles Métavers ?<br /></Heading>
@@ -216,7 +216,7 @@ export default function Home() {
           <img src="/images/metavers/cover-01.jpg" alt="Pourquoi choisir nos salles Métavers" style={{ width: "50%", height: "auto", borderRadius: "20px" }} />
         </Flex>
         <br /><br /><br /><br />
-        <Flex gap="m" alignItems="center">
+        <Flex gap="m">
           <img src="/images/oculus.png" alt="Pourquoi choisir nos salles Métavers" style={{ width: "50%", height: "auto", borderRadius: "20px" }} />
           <div style={{ flex: 1 }}>
             <Heading variant="heading-default-xl" style={{ color: "#7febba", fontWeight: "bold" }}>Pourquoi utiliser l’Oculus Quest pour le Métavers ?<br /></Heading>
@@ -232,7 +232,7 @@ export default function Home() {
           </div>
         </Flex>
         <br /><br /><br /><br />
-        <Flex gap="m" alignItems="center">
+        <Flex gap="m">
           <div style={{ flex: 1 }}>
             <Heading variant="heading-default-xl" style={{ color: "#7febba", fontWeight: "bold" }}>Des Vidéos professionnelles pour comprendre et s’inspirer<br /></Heading>
             <Text variant="body-default-m">
