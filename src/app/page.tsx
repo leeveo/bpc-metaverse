@@ -4,16 +4,11 @@ import { Heading, Flex, Text, Button, Avatar, RevealFx, Arrow, Column } from "@/
 import { Projects } from "@/components/work/Projects";
 
 import { baseURL, routes } from "@/app/resources";
+import { home, newsletter } from "@/app/resources/content"; // Ensure newsletter is imported
 import { Mailchimp } from "@/components";
 import { Posts } from "@/components/blog/Posts";
 import styles from "./Home.module.css"; // Import the CSS module
 import { FaUsers, FaChalkboardTeacher, FaGlobe } from "react-icons/fa"; // Import icons
-
-const home = {
-  title: 'Home Title',
-  description: 'Home Description',
-  // ...other properties...
-};
 
 export async function generateMetadata() {
   const title = home.title;
@@ -156,8 +151,6 @@ export default function Home() {
         </div>
       </div>
 
-     
-
       <img src="/images/metagold.jpg" alt="Le metagold" style={{ width: "100%", height: "auto", borderRadius: "20px", position: "relative", top:"-100px", zIndex: 1 }} />
       
       <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: "20px", justifyItems: "center" }}>
@@ -193,7 +186,7 @@ export default function Home() {
         
       </div>
       <Column fillWidth paddingY="l" gap="m">
-        <Flex gap="m" alignItems="center">
+        <Flex gap="m" align="center">
      
           <div style={{ flex: 1 }}>
             <Heading variant="heading-default-xl" style={{ color: "#7febba", fontWeight: "bold" }}>Pourquoi choisir nos salles Métavers ?<br /></Heading>
@@ -214,7 +207,7 @@ export default function Home() {
           <img src="/images/metavers/cover-01.jpg" alt="Pourquoi choisir nos salles Métavers" style={{ width: "50%", height: "auto", borderRadius: "20px" }} />
         </Flex>
         <br /><br /><br /><br />
-        <Flex gap="m" alignItems="center">
+        <Flex gap="m" align="center">
           <img src="/images/oculus.png" alt="Pourquoi choisir nos salles Métavers" style={{ width: "50%", height: "auto", borderRadius: "20px" }} />
           <div style={{ flex: 1 }}>
             <Heading variant="heading-default-xl" style={{ color: "#7febba", fontWeight: "bold" }}>Pourquoi utiliser l’Oculus Quest pour le Métavers ?<br /></Heading>
@@ -230,7 +223,7 @@ export default function Home() {
           </div>
         </Flex>
         <br /><br /><br /><br />
-        <Flex gap="m" alignItems="center">
+        <Flex gap="m" align="center">
           <div style={{ flex: 1 }}>
             <Heading variant="heading-default-xl" style={{ color: "#7febba", fontWeight: "bold" }}>Des Vidéos professionnelles pour comprendre et s’inspirer<br /></Heading>
             <Text variant="body-default-m">
