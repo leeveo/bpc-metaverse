@@ -17,6 +17,13 @@ const home = {
   // ...other properties...
 };
 
+const newsletter = {
+  display: true,
+  title: "Newsletter Title",
+  description: "Subscribe to our newsletter to stay updated.",
+  // ...other properties...
+};
+
 export async function generateMetadata() {
   const title = home.title;
   const description = home.description;
