@@ -4,11 +4,18 @@ import { Heading, Flex, Text, Button, Avatar, RevealFx, Arrow, Column } from "@/
 import { Projects } from "@/components/work/Projects";
 
 import { baseURL, routes } from "@/app/resources";
-import { home, about, person, newsletter } from "@/app/resources/content";
+import { about, person, newsletter } from "@/app/resources/content";
 import { Mailchimp } from "@/components";
 import { Posts } from "@/components/blog/Posts";
 import styles from "./Home.module.css"; // Import the CSS module
 import { FaUsers, FaChalkboardTeacher, FaGlobe } from "react-icons/fa"; // Import icons
+
+// Ensure home is an object with the correct properties
+const home = {
+  title: "Home Page",
+  description: "Welcome to the home page",
+  // ...other properties...
+};
 
 export async function generateMetadata() {
   const title = home.title;
