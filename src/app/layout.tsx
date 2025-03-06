@@ -9,8 +9,14 @@ import { baseURL, effects, style } from "@/app/resources";
 import { Inter } from "next/font/google";
 import { Source_Code_Pro } from "next/font/google";
 
-import { person, home } from "@/app/resources/content";
+import { person } from "@/app/resources/content";
 import { Background, Column, Flex, ToastProvider } from "@/once-ui/components";
+
+const home = {
+  title: 'Home Title',
+  description: 'Home Description',
+  // ...other properties...
+};
 
 export async function generateMetadata() {
   return {
