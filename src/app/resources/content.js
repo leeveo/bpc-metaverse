@@ -179,80 +179,18 @@ const work = {
 
 const gallery = {
   label: "Galerie",
-  title: "Galerie Photos",
-  description: `A photo collection by ${person.name}`,
-  // Images from https://pexels.com
+  title: "Gallery Title", // Ensure title property exists
+  description: "Gallery Description", // Ensure description property exists
   images: [
     {
-      src: "/images/gallery/001.jpeg",
-      alt: "image",
-      orientation: "vertical",
+      src: "/path/to/image1.jpg",
+      alt: "Image 1 description",
     },
     {
-      src: "/images/gallery/002.jpeg",
-      alt: "image",
-      orientation: "horizontal",
+      src: "/path/to/image2.jpg",
+      alt: "Image 2 description",
     },
-    {
-      src: "/images/gallery/003.jpeg",
-      alt: "image",
-      orientation: "vertical",
-    },
-    {
-      src: "/images/gallery/004.jpeg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/005.jpeg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/006.jpeg",
-      alt: "image",
-      orientation: "vertical",
-    },
-    {
-      src: "/images/gallery/007.jpeg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/008.jpeg",
-      alt: "image",
-      orientation: "vertical",
-    },
-    {
-      src: "/images/gallery/009.jpeg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/010.jpeg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/011.jpeg",
-      alt: "image",
-      orientation: "vertical",
-    },
-    {
-      src: "/images/gallery/012.jpeg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/013.jpeg",
-      alt: "image",
-      orientation: "horizontal",
-    },
-    {
-      src: "/images/gallery/014.jpeg",
-      alt: "image",
-      orientation: "horizontal",
-    },
+    // Add more images as needed
   ],
 };
 
