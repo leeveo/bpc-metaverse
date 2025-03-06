@@ -45,101 +45,6 @@ const home = {
   ),
 };
 
-const about = {
-  title: "About Us",
-  description: "This is the description for the about section.",
-  intro: {
-    title: "Introduction",
-    display: true,
-    description: "This is the introduction section.",
-  },
-  work: {
-    title: "Work Experience",
-    display: true,
-    experiences: [
-      {
-        company: "Company A",
-        role: "Role A",
-        timeframe: "2020 - Present",
-        achievements: [
-          "Achievement 1",
-          "Achievement 2",
-        ],
-      },
-      {
-        company: "Company B",
-        role: "Role B",
-        timeframe: "2018 - 2020",
-        achievements: [
-          "Achievement 3",
-          "Achievement 4",
-        ],
-      },
-    ],
-  },
-  studies: {
-    title: "Studies",
-    display: true,
-    institutions: [
-      {
-        name: "University of Jakarta",
-        description: "Studied software engineering.",
-      },
-      {
-        name: "Build the Future",
-        description: "Studied online marketing and personal branding.",
-      },
-    ],
-  },
-  technical: {
-    title: "Technical Skills",
-    display: true,
-    skills: [
-      {
-        title: "Figma",
-        description: "Able to prototype in Figma with Once UI with unnatural speed.",
-        images: [
-          {
-            src: "/images/projects/project-01/cover-02.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-          {
-            src: "/images/projects/project-01/cover-03.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-        ],
-      },
-      {
-        title: "Next.js",
-        description: "Building next gen apps with Next.js + Once UI + Supabase.",
-        images: [
-          {
-            src: "/images/projects/project-01/cover-04.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-        ],
-      },
-    ],
-  },
-  tableOfContent: {
-    display: true,
-    subItems: false,
-  },
-  avatar: {
-    display: true,
-  },
-  calendar: {
-    display: true,
-    link: "https://cal.com",
-  },
-};
-
 const blog = {
   label: "Blog",
   title: "Writing about design and tech...",
@@ -244,4 +149,4 @@ const metaverseGallery = {
   ],
 };
 
-export { person, social, newsletter, home, about, blog, work, gallery, metaverseGallery };
+export { person, social, newsletter, home, blog, work, gallery, metaverseGallery };
