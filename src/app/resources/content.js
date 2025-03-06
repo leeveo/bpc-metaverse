@@ -242,4 +242,60 @@ const vtc = {
   // Add other properties as needed
 };
 
-export { person, social, newsletter, home, about, work, gallery, metaverseGallery, blog, hotels, dynabuy, vtc };
+const cinema = {
+  // Define the cinema object
+  title: "Cinema",
+  description: "List of cinema services",
+  // Add other properties as needed
+};
+
+const conseils = {
+  // Define the conseils object
+  title: "Conseils",
+  description: "List of conseils services",
+  // Add other properties as needed
+};
+
+const digitale = {
+  // Define the digitale object
+  title: "Digitale",
+  description: "List of digitale services",
+  // Add other properties as needed
+};
+
+const formation = {
+  // Define the formation object
+  title: "Formation",
+  description: "List of formation services",
+  // Add other properties as needed
+};
+
+const formation2 = {
+  // Define the formation2 object
+  title: "Formation 2",
+  description: "List of formation2 services",
+  // Add other properties as needed
+};
+
+const karate = {
+  // Define the karate object
+  title: "Karate",
+  description: "List of karate services",
+  // Add other properties as needed
+};
+
+const metagold = {
+  // Define the metagold object
+  title: "MetaGold",
+  description: "MetaGold services",
+  // Add other properties as needed
+};
+
+const metavers = {
+  // Define the metavers object
+  title: "Metavers",
+  description: "Metavers services",
+  // Add other properties as needed
+};
+
+export { person, social, newsletter, home, about, work, gallery, metaverseGallery, blog, hotels, dynabuy, vtc, cinema, conseils, digitale, formation, formation2, karate, metagold, metavers };
