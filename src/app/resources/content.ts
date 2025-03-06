@@ -4,6 +4,11 @@ export const person = {
   // ...define the person object...
 };
 
+export const about = {
+  title: "About Us",
+  // ...define other properties...
+};
+
 export const metaverseGallery = {
   images: [
     { src: '/images/metavers/image1.jpg', alt: 'Image 1' },
