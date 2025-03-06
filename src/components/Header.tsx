@@ -7,7 +7,7 @@ import { Fade, Flex, Line, ToggleButton } from "@/once-ui/components";
 import styles from "@/components/Header.module.scss";
 
 import { routes, display } from "@/app/resources";
-import { person, home, about, blog, work, gallery, hotels, dynabuy, vtc, cinema, formation, digitale, signup, bureautique, conseils, bancaire, karate, arbela, lazare, formation2, metagold } from "@/app/resources/content"; // Ensure this uses content.js
+import { person, home, about, blog, work, gallery, hotels, dynabuy, vtc, cinema, formation, digitale, signup, bureautique, conseils, bancaire, karate, arbela, lazare, formation2, metagold } from "@/app/resources/content.js"; // Ensure this uses content.js
 
 type TimeDisplayProps = {
   timeZone: string;

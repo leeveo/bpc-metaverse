@@ -221,4 +221,11 @@ const blog = {
   ],
 };
 
-export { person, social, newsletter, home, about, work, gallery, metaverseGallery, blog };
+const hotels = {
+  // Define the hotels object
+  title: "Hotels",
+  description: "List of hotels",
+  // Add other properties as needed
+};
+
+export { person, social, newsletter, home, about, work, gallery, metaverseGallery, blog, hotels };
