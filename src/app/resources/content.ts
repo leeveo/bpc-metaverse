@@ -15,7 +15,7 @@ const person = {
 // Ensure person.name is correctly defined and accessible
 const home = {
   label: "Home",
-  title: `${person.name}'s Portfolio`,
+  title: `${(person.name as string)}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
   headline: <>Le Metagold Métaverse</>,
   subline: (
