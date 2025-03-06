@@ -1,0 +1,22 @@
+export const person = { /* ... */ };
+export const home = { /* ... */ };
+export const about = { /* ... */ };
+export const blog = { /* ... */ };
+export const work = { /* ... */ };
+export const gallery = { /* ... */ };
+// Ensure 'lazare' is exported if it exists
+export const lazare = { /* ... */ };
+export const hotels = { /* ... */ };
+export const dynabuy = { /* ... */ };
+export const vtc = { /* ... */ };
+export const cinema = { /* ... */ };
+export const formation = { /* ... */ };
+export const digitale = { /* ... */ };
+export const signup = { /* ... */ };
+export const bureautique = { /* ... */ };
+export const conseils = { /* ... */ };
+export const bancaire = { /* ... */ };
+export const karate = { /* ... */ };
+export const arbela = { /* ... */ };
+export const formation2 = { /* ... */ };
+export const metagold = { /* ... */ };
