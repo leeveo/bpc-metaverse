@@ -254,7 +254,7 @@ export default function Home() {
           <div style={{ width: "100%", maxWidth: "1200px", display: "flex", justifyContent: "space-between", alignItems: "center" }}>
             <img src="/images/icone_gold001.png" alt="Icone Gold" style={{ marginLeft: "20px", height: "100px" }} />
             <div style={{ textAlign: "center", flex: 1 }}>
-              <Heading variant="heading-default-xxl" style={{ color: "#333333" }}>Rejoignez notre communauté</Heading>
+              <Heading variant="heading-default-xl" style={{ color: "#333333" }}>Rejoignez notre communauté</Heading>
               <Text variant="body-default-m" style={{ color: "#ffffff" }}>Inscrivez-vous dès maintenant pour accéder à des contenus exclusifs et des opportunités uniques.<br /> Ainsi qu'un accès complet au Metavers du METAGOLD</Text>
             </div>
             <Button variant="primary" size="l" style={{ marginRight: "20px" }} href="/signup">
@@ -273,7 +273,7 @@ export default function Home() {
           <div style={{ width: "100%", maxWidth: "1200px", display: "flex", justifyContent: "space-between", alignItems: "center" }}>
             <img src="/images/icone_gold001.png" alt="Icone Gold" style={{ marginLeft: "20px", height: "100px" }} />
             <div style={{ textAlign: "center", flex: 1 }}>
-              <Heading variant="heading-default-xxl" style={{ color: "#333333"}}>Accèdez immédiatement au metavers </Heading>
+              <Heading variant="heading-default-xl" style={{ color: "#333333"}}>Accèdez immédiatement au metavers </Heading>
               <Text variant="body-default-m" style={{ color: "#ffffff" }}>Vous avez déjà votre accès privilégié ? <br /> Accèdez maintenant au METAGOLD</Text>
             </div>
             <Button variant="primary" size="l" style={{ marginRight: "20px" }} href="/work">
