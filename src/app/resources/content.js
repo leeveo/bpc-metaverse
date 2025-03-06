@@ -235,4 +235,11 @@ const dynabuy = {
   // Add other properties as needed
 };
 
-export { person, social, newsletter, home, about, work, gallery, metaverseGallery, blog, hotels, dynabuy };
+const vtc = {
+  // Define the vtc object
+  title: "VTC",
+  description: "List of VTC services",
+  // Add other properties as needed
+};
+
+export { person, social, newsletter, home, about, work, gallery, metaverseGallery, blog, hotels, dynabuy, vtc };
