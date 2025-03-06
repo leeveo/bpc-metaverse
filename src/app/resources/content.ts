@@ -3,8 +3,11 @@ export const home = { /* ... */ };
 export const about = { /* ... */ };
 export const blog = { /* ... */ };
 export const work = { /* ... */ };
-export const gallery = { /* ... */ };
-// Ensure 'lazare' is exported if it exists
+export const gallery = {
+  title: "Gallery Title", // Ensure title property exists
+  description: "Gallery Description", // Ensure description property exists
+  // ...other properties...
+};
 export const lazare = { /* ... */ };
 export const hotels = { /* ... */ };
 export const dynabuy = { /* ... */ };
