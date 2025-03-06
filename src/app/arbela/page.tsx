@@ -6,7 +6,7 @@ import axios from 'axios';
 import { Flex } from "@/once-ui/components";
 import MasonryGrid from "@/components/gallery/MasonryGrid";
 import { baseURL } from "@/app/resources";
-import { gallery, person } from "@/app/resources/content";
+import { gallery, person } from "@/app/resources/content.js"; // Ensure this uses content.js
 import imagesData from "@/app/resources/imagesData.json"; // Import imagesData from JSON file
 
 export default function Arbela() {
