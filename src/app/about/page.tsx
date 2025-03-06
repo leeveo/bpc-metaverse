@@ -262,7 +262,7 @@ export default function About() {
                               src={image.src}
                             />
                           </Flex>
-                        ))}
+                        ))} 
                       </Flex>
                     )}
                   </Column>
