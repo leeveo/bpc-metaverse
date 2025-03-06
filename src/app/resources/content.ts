@@ -12,6 +12,30 @@ export const about = {
     display: true,
     description: "This is the introduction section.",
   },
+  work: {
+    title: "Work Experience",
+    display: true,
+    experiences: [
+      {
+        company: "Company A",
+        role: "Role A",
+        timeframe: "2020 - Present",
+        achievements: [
+          "Achievement 1",
+          "Achievement 2",
+        ],
+      },
+      {
+        company: "Company B",
+        role: "Role B",
+        timeframe: "2018 - 2020",
+        achievements: [
+          "Achievement 3",
+          "Achievement 4",
+        ],
+      },
+    ],
+  },
   // ...define other properties...
 };
 
