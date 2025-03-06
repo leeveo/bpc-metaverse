@@ -1,6 +1,7 @@
 import { InlineCode } from "@/once-ui/components";
 
-const person = {
+// Ensure person object is correctly defined
+const person: { firstName: string; lastName: string; name: string; role: string; avatar: string; location: string; languages: string[] } = {
   firstName: "MetaGold", 
   lastName: "Gold Nature",
   get name() {
@@ -15,7 +16,7 @@ const person = {
 // Ensure person.name is correctly defined and accessible
 const home = {
   label: "Home",
-  title: `${(person.name as string)}'s Portfolio`,
+  title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
   headline: <>Le Metagold Métaverse</>,
   subline: (
