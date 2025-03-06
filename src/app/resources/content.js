@@ -228,4 +228,11 @@ const hotels = {
   // Add other properties as needed
 };
 
-export { person, social, newsletter, home, about, work, gallery, metaverseGallery, blog, hotels };
+const dynabuy = {
+  // Define the dynabuy object
+  title: "Dynabuy",
+  description: "List of dynabuy services",
+  // Add other properties as needed
+};
+
+export { person, social, newsletter, home, about, work, gallery, metaverseGallery, blog, hotels, dynabuy };
