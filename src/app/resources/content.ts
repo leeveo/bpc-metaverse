@@ -1,5 +1,9 @@
 // ...existing code...
 
+export const person = {
+  // ...define the person object...
+};
+
 export const metaverseGallery = {
   images: [
     { src: '/images/metavers/image1.jpg', alt: 'Image 1' },
