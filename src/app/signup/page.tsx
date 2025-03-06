@@ -14,7 +14,7 @@ export default function Signup() {
               Un univers dédié au télétravail et au développement personnel<br />
               Nous vous accompagnons à chaque étape de votre parcours professionnel en vous proposant des services sur mesure. <br />Profitez d’un coaching personnalisé, d’un accès à des solutions bureautiques à prix coûtant, de remises exclusives sur les services VTC, et d’un accompagnement individualisé tout au long de notre collaboration.
             </p>
-            <p style={{ marginBottom: '20px', textAlign: 'center', color: "#7febba", fontSize: "16px" , fontweight: "bold"}}>
+            <p style={{ marginBottom: '20px', textAlign: 'center', color: "#7febba", fontSize: "16px", fontWeight: "bold" }}>
               Pourquoi rejoindre le partenariat Gold Nature ?<br />
               
               <p style={{ marginBottom: '20px', textAlign: 'center', color: "#fff", fontSize: "16px" }}></p>
