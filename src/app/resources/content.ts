@@ -1,6 +1,6 @@
 import { InlineCode } from "@/once-ui/components";
 
-// Ensure person object is correctly defined
+// Define the person object with the correct type
 const person: { firstName: string; lastName: string; name: string; role: string; avatar: string; location: string; languages: string[] } = {
   firstName: "MetaGold", 
   lastName: "Gold Nature",
