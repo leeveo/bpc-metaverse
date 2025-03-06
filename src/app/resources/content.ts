@@ -91,6 +91,42 @@ const about = {
       },
     ],
   },
+  technical: {
+    title: "Technical Skills",
+    display: true,
+    skills: [
+      {
+        title: "Figma",
+        description: "Able to prototype in Figma with Once UI with unnatural speed.",
+        images: [
+          {
+            src: "/images/projects/project-01/cover-02.jpg",
+            alt: "Project image",
+            width: 16,
+            height: 9,
+          },
+          {
+            src: "/images/projects/project-01/cover-03.jpg",
+            alt: "Project image",
+            width: 16,
+            height: 9,
+          },
+        ],
+      },
+      {
+        title: "Next.js",
+        description: "Building next gen apps with Next.js + Once UI + Supabase.",
+        images: [
+          {
+            src: "/images/projects/project-01/cover-04.jpg",
+            alt: "Project image",
+            width: 16,
+            height: 9,
+          },
+        ],
+      },
+    ],
+  },
   tableOfContent: {
     display: true,
     subItems: false,
