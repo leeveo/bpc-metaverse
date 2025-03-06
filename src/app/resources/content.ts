@@ -46,9 +46,51 @@ const home = {
 };
 
 const about = {
-  label: "Metaverse",
-  title: "Metagold",
-  description: `Meet ${person.name}, ${person.role} from ${person.location}`,
+  title: "About Us",
+  description: "This is the description for the about section.",
+  intro: {
+    title: "Introduction",
+    display: true,
+    description: "This is the introduction section.",
+  },
+  work: {
+    title: "Work Experience",
+    display: true,
+    experiences: [
+      {
+        company: "Company A",
+        role: "Role A",
+        timeframe: "2020 - Present",
+        achievements: [
+          "Achievement 1",
+          "Achievement 2",
+        ],
+      },
+      {
+        company: "Company B",
+        role: "Role B",
+        timeframe: "2018 - 2020",
+        achievements: [
+          "Achievement 3",
+          "Achievement 4",
+        ],
+      },
+    ],
+  },
+  studies: {
+    title: "Studies",
+    display: true,
+    institutions: [
+      {
+        name: "University of Jakarta",
+        description: "Studied software engineering.",
+      },
+      {
+        name: "Build the Future",
+        description: "Studied online marketing and personal branding.",
+      },
+    ],
+  },
   tableOfContent: {
     display: true,
     subItems: false,
@@ -59,115 +101,6 @@ const about = {
   calendar: {
     display: true,
     link: "https://cal.com",
-  },
-  intro: {
-    display: true,
-    title: "Introduction",
-    description: (
-      <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
-      </>
-    ),
-  },
-  work: {
-    display: true, // set to false to hide this section
-    title: "Work Experience",
-    experiences: [
-      {
-        company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
-        achievements: [
-          <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
-            engagement and 30% faster load times.
-          </>,
-          <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
-            iterate 50% faster.
-          </>,
-        ],
-        images: [
-          // optional: leave the array empty if you don't want to display images
-          {
-            src: "/images/projects/project-01/cover-01.jpg",
-            alt: "Once UI Project",
-            width: 16,
-            height: 9,
-          },
-        ],
-      },
-      {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
-        achievements: [
-          <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
-          </>,
-          <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
-            in overall company revenue.
-          </>,
-        ],
-        images: [],
-      },
-    ],
-  },
-  studies: {
-    display: true, // set to false to hide this section
-    title: "Studies",
-    institutions: [
-      {
-        name: "University of Jakarta",
-        description: <>Studied software engineering.</>,
-      },
-      {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
-      },
-    ],
-  },
-  technical: {
-    display: true, // set to false to hide this section
-    title: "Technical skills",
-    skills: [
-      {
-        title: "Figma",
-        description: <>Able to prototype in Figma with Once UI with unnatural speed.</>,
-        // optional: leave the array empty if you don't want to display images
-        images: [
-          {
-            src: "/images/projects/project-01/cover-02.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-          {
-            src: "/images/projects/project-01/cover-03.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-        ],
-      },
-      {
-        title: "Next.js",
-        description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
-        // optional: leave the array empty if you don't want to display images
-        images: [
-          {
-            src: "/images/projects/project-01/cover-04.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-        ],
-      },
-    ],
   },
 };
 
