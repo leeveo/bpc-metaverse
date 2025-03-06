@@ -6,6 +6,7 @@ export const person = {
 
 export const about = {
   title: "About Us",
+  description: "This is the description for the about section.",
   // ...define other properties...
 };
 
