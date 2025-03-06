@@ -265,4 +265,22 @@ const metaverseGallery = {
   ],
 };
 
-export { person, social, newsletter, home, about, work, gallery, metaverseGallery };
+const blog = {
+  label: "Blog",
+  title: "Latest Blog Posts",
+  description: "Read the latest articles and updates.",
+  posts: [
+    {
+      title: "Post 1",
+      description: "Description of post 1",
+      link: "/blog/post-1",
+    },
+    {
+      title: "Post 2",
+      description: "Description of post 2",
+      link: "/blog/post-2",
+    },
+  ],
+};
+
+export { person, social, newsletter, home, about, work, gallery, metaverseGallery, blog };

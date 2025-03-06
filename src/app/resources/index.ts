@@ -9,12 +9,13 @@ export {
   baseURL,
 } from "@/app/resources/config";
 export {
-  person,
-  social,
-  newsletter,
   home,
   about,
   blog,
   work,
   gallery,
+  metaverseGallery,
+  newsletter,
+  person,
+  social,
 } from "@/app/resources/content";
