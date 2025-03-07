@@ -262,6 +262,50 @@ const gallery = {
       src: "/images/gallery/020.jpeg",
       alt: "Le metagold",
     },
+    {
+      src: "/images/gallery/021.jpeg",
+      alt: "Le metagold",
+    },
+    {
+      src: "/images/gallery/022.jpeg",
+      alt: "Le metagold",
+    },
+    {
+      src: "/images/gallery/023.jpeg",
+      alt: "Le metagold",
+    },
+    {
+      src: "/images/gallery/024.jpeg",
+      alt: "Le metagold",
+    },
+    {
+      src: "/images/gallery/025.jpeg",
+      alt: "Le metagold",
+    },
+    {
+      src: "/images/gallery/026.jpeg",
+      alt: "Le metagold",
+    },
+    {
+      src: "/images/gallery/027.jpeg",
+      alt: "Le metagold",
+    },
+    {
+      src: "/images/gallery/028.jpeg",
+      alt: "Le metagold",
+    },
+    {
+      src: "/images/gallery/029.jpeg",
+      alt: "Le metagold",
+    },
+    {
+      src: "/images/gallery/030.jpeg",
+      alt: "Le metagold",
+    },
+    {
+      src: "/images/gallery/031.jpeg",
+      alt: "Le metagold",
+    },
     // Add more images as needed
   ],
 };
