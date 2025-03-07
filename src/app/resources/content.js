@@ -305,4 +305,11 @@ const signup = {
   // Add other properties as needed
 };
 
-export { person, social, newsletter, home, about, work, gallery, metaverseGallery, blog, hotels, dynabuy, vtc, cinema, conseils, digitale, formation, formation2, karate, metagold, metavers, signup };
+const bureautique = {
+  // Define the bureautique object
+  title: "Bureautique",
+  description: "Bureautique services",
+  // Add other properties as needed
+};
+
+export { person, social, newsletter, home, about, work, gallery, metaverseGallery, blog, hotels, dynabuy, vtc, cinema, conseils, digitale, formation, formation2, karate, metagold, metavers, signup, bureautique };
