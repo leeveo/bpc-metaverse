@@ -59,7 +59,9 @@ export const Header = () => {
         horizontal="center"
       >
         <Flex paddingLeft="12" fillWidth vertical="center" textVariant="body-default-s">
-          {display.location && <Flex hide="s">{person.location}</Flex>}
+                   
+          <img src="/images/metagold_logo.png" alt="MetaGold Logo" style={{ marginBottom: '8px', width: '300px' }} /> {/* Add the logo image */}
+          {display.location && <Flex hide="s"></Flex>}
         </Flex>
         <Flex fillWidth horizontal="center">
           <Flex
