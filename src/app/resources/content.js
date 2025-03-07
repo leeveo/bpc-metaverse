@@ -319,4 +319,11 @@ const bancaire = {
   // Add other properties as needed
 };
 
-export { person, social, newsletter, home, about, work, gallery, metaverseGallery, blog, hotels, dynabuy, vtc, cinema, conseils, digitale, formation, formation2, karate, metagold, metavers, signup, bureautique, bancaire };
+const arbela = {
+  // Define the arbela object
+  title: "Arbela",
+  description: "Arbela services",
+  // Add other properties as needed
+};
+
+export { person, social, newsletter, home, about, work, gallery, metaverseGallery, blog, hotels, dynabuy, vtc, cinema, conseils, digitale, formation, formation2, karate, metagold, metavers, signup, bureautique, bancaire, arbela };
