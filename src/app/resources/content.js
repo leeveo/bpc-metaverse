@@ -183,12 +183,68 @@ const gallery = {
   description: "Gallery Description", // Ensure description property exists
   images: [
     {
-      src: "/path/to/image1.jpg",
-      alt: "Image 1 description",
+      src: "/images/gallery/001.jpeg",
+      alt: "Le metagold",
     },
     {
-      src: "/path/to/image2.jpg",
-      alt: "Image 2 description",
+      src: "/images/gallery/002.jpeg",
+      alt: "Le metagold",
+    },
+    {
+      src: "/images/gallery/003.jpeg",
+      alt: "Le metagold",
+    },
+    {
+      src: "/images/gallery/004.jpeg",
+      alt: "Le metagold",
+    },
+    {
+      src: "/images/gallery/005.jpeg",
+      alt: "Le metagold",
+    },
+    {
+      src: "/images/gallery/006.jpeg",
+      alt: "Le metagold",
+    },
+    {
+      src: "/images/gallery/007.jpeg",
+      alt: "Le metagold",
+    },
+    {
+      src: "/images/gallery/008.jpeg",
+      alt: "Le metagold",
+    },
+    {
+      src: "/images/gallery/009.jpeg",
+      alt: "Le metagold",
+    },
+    {
+      src: "/images/gallery/010.jpeg",
+      alt: "Le metagold",
+    },
+    {
+      src: "/images/gallery/011.jpeg",
+      alt: "Le metagold",
+    },
+    {
+      src: "/images/gallery/012.jpeg",
+      alt: "Le metagold",
+    },
+    {
+      src: "/images/gallery/013.jpeg",
+      alt: "Le metagold",
+    },
+    {
+      src: "/images/gallery/014.jpeg",
+      alt: "Le metagold",
+    },
+    {
+      src: "/images/gallery/015.jpeg",
+      alt: "Le metagold",
+    },
+    {
+      src: "/images/gallery/016.jpeg",
+      alt: "Le metagold",
     },
     // Add more images as needed
   ],
