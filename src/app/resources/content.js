@@ -246,6 +246,22 @@ const gallery = {
       src: "/images/gallery/016.jpeg",
       alt: "Le metagold",
     },
+    {
+      src: "/images/gallery/017.jpeg",
+      alt: "Le metagold",
+    },
+    {
+      src: "/images/gallery/018.jpeg",
+      alt: "Le metagold",
+    },
+    {
+      src: "/images/gallery/019.jpeg",
+      alt: "Le metagold",
+    },
+    {
+      src: "/images/gallery/020.jpeg",
+      alt: "Le metagold",
+    },
     // Add more images as needed
   ],
 };
