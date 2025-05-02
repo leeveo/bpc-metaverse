@@ -28,8 +28,8 @@ const home = {
 
 const newsletter = {
   display: true,
-  title: "Newsletter Title",
-  description: "Subscribe to our newsletter to stay updated.",
+  title: "Notre Newsletter",
+  description: "Abonnez-vous à notre Newsletter !.",
 };
 
 const social = [

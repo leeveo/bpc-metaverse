@@ -53,6 +53,8 @@ export default function Work() {
         2️⃣ Cliquez sur l’entrée pour accéder instantanément au Métavers.
         <br />
         3️⃣ Interagissez en direct avec d’autres utilisateurs, explorez les contenus et développez vos compétences.
+        <br />
+        4️⃣ Utiliser les flèches de votre clavier ainsi que le clic gauche de votre souris pour vous déplacer dans les salles.
       </p>
       <div style={{ display: "grid", gridTemplateColumns: "repeat(3, 1fr)", gap: "10px", justifyItems: "center" }}>
         {imagesData.map((image, index) => (
